@@ -63,7 +63,7 @@ CHANNELS_INTERESTS = {
 ```
 
 ### 3. (Optional) Customize Settings
-- RSS Feed URL: Update the `feed_url` in the `main()` function if you want to monitor a different feed. Default is Google News RSS (https://news.google.com/rss).
+- RSS Feed URL: Update the `RSS_FEEDS ` in the `main()` function if you want to monitor a different feed. Default is Google News RSS (https://news.google.com/rss).
 - Check Frequency: Adjust the `time.sleep(15 * 60)` interval in seconds to control how often the feed is checked. Ex : `time.sleep(15 * 60)` = `15 minutes`
 
 ## 🖥️ Usage
